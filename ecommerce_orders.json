@@ -1,0 +1,41 @@
+[
+  {
+    "campaign_id": "CMP-101",
+    "period": "v1",
+    "attributed_orders": 304,
+    "funnel": {
+      "sessions": 9400,
+      "add_to_cart": 590,
+      "checkout_started": 410,
+      "purchased": 304
+    }
+  },
+  {
+    "campaign_id": "CMP-101",
+    "period": "v2",
+    "attributed_orders": 322,
+    "funnel": null
+  },
+  {
+    "campaign_id": "CMP-102",
+    "period": "v1",
+    "attributed_orders": 233,
+    "funnel": {
+      "sessions": 6100,
+      "add_to_cart": 470,
+      "checkout_started": 300,
+      "purchased": 233
+    }
+  },
+  {
+    "campaign_id": "CMP-103",
+    "period": "v1",
+    "attributed_orders": 131,
+    "funnel": {
+      "sessions": 4700,
+      "add_to_cart": 250,
+      "checkout_started": 168,
+      "purchased": 131
+    }
+  }
+]

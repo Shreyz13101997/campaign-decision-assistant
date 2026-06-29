@@ -1,0 +1,87 @@
+{
+  "version": "2026-05",
+  "disclaimer_required_text": "These statements have not been evaluated by the FSSAI. This product is not intended to diagnose, treat, cure, or prevent any disease.",
+  "notes": "Each rule lists machine-matchable trigger terms. 'violation' = must not ship. 'violation_if_unsubstantiated' = violation unless the named field is present. 'review' = route to a human; may be intent-level rather than exact-match.",
+  "rules": [
+    {
+      "id": "CR-01",
+      "title": "No disease claims",
+      "description": "Copy must not claim to diagnose, treat, cure, or prevent any disease or medical condition.",
+      "trigger_terms": [
+        "cure",
+        "treat",
+        "prevent",
+        "diagnose"
+      ],
+      "trigger_context": [
+        "disease",
+        "illness",
+        "condition",
+        "alzheimer",
+        "diabetes",
+        "cancer"
+      ],
+      "severity": "violation"
+    },
+    {
+      "id": "CR-02",
+      "title": "No aging-reversal claims",
+      "description": "Copy must not claim to reverse, stop, or undo aging or biological age.",
+      "trigger_terms": [
+        "reverse aging",
+        "reverse biological aging",
+        "reverse your biological age",
+        "stop aging",
+        "turn back the clock",
+        "anti-aging cure"
+      ],
+      "severity": "violation"
+    },
+    {
+      "id": "CR-03",
+      "title": "Substantiation required for proof claims",
+      "description": "'Clinically proven' / 'scientifically proven' are allowed only when a study_citation field is present on the creative.",
+      "trigger_terms": [
+        "clinically proven",
+        "scientifically proven",
+        "proven to"
+      ],
+      "requires_field": "study_citation",
+      "severity": "violation_if_unsubstantiated"
+    },
+    {
+      "id": "CR-04",
+      "title": "No guarantees or fixed timelines",
+      "description": "Copy must not guarantee outcomes or promise results within a specific timeframe.",
+      "trigger_terms": [
+        "guaranteed",
+        "guarantee",
+        "money back",
+        "results in 30 days",
+        "in 30 days"
+      ],
+      "severity": "violation"
+    },
+    {
+      "id": "CR-05",
+      "title": "No unsubstantiated superiority",
+      "description": "Comparative or superlative claims require substantiation.",
+      "trigger_terms": [
+        "best",
+        "#1",
+        "number one",
+        "more effective than"
+      ],
+      "requires_field": "substantiation",
+      "severity": "review"
+    },
+    {
+      "id": "CR-06",
+      "title": "Efficacy copy needs disclaimer",
+      "description": "Any creative making a health/efficacy claim must display the required disclaimer text.",
+      "applies_when": "efficacy_claim_present",
+      "requires": "disclaimer_required_text",
+      "severity": "review"
+    }
+  ]
+}

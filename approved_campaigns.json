@@ -1,0 +1,41 @@
+[
+  {
+    "approved_id": "APR-201",
+    "name": "NMN Pro - Steady Energy (Q1)",
+    "product_id": "PRD-NMN500",
+    "outcome": "success",
+    "metrics": {
+      "ctr_pct": 2.9,
+      "conversion_rate_pct": 3.4
+    },
+    "learnings": "Ad headline and landing-page headline both led with 'cellular energy'. Tight promise-to-landing alignment drove strong conversion. Avoided dramatic anti-aging language.",
+    "approved_by": "Arpitha",
+    "approved_at": "2026-02-20"
+  },
+  {
+    "approved_id": "APR-202",
+    "name": "D3+K2 - Immunity (Q1)",
+    "product_id": "PRD-D3K2",
+    "outcome": "success",
+    "metrics": {
+      "ctr_pct": 3.1,
+      "conversion_rate_pct": 3.8
+    },
+    "learnings": "Clear functional benefit, modest claims, consistent message across ad and page.",
+    "approved_by": "Arpitha",
+    "approved_at": "2026-01-15"
+  },
+  {
+    "approved_id": "APR-203",
+    "name": "NMN Pro - Bold Promise Test (Q4)",
+    "product_id": "PRD-NMN500",
+    "outcome": "underperformed",
+    "metrics": {
+      "ctr_pct": 3.6,
+      "conversion_rate_pct": 1.6
+    },
+    "learnings": "A high-CTR 'younger' hook lifted clicks but conversion fell sharply because the landing page did not back the promise. The angle was discontinued.",
+    "approved_by": "Arpitha",
+    "approved_at": "2025-11-30"
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "campaign_id": "CMP-101",
+    "name": "NMN Pro - Cellular Energy Launch",
+    "product_id": "PRD-NMN500",
+    "status": "active",
+    "objective": "conversions",
+    "channel": "Meta Ads",
+    "flight": {
+      "start": "2026-05-01",
+      "end": "2026-05-28"
+    },
+    "brief": "Drive first-time purchases of NMN Pro 500mg among health-conscious adults 35-55 interested in energy and longevity. Original angle: steady daily energy and cellular health.",
+    "creative_variants": [
+      {
+        "variant": "v1",
+        "period": "2026-05-01..2026-05-14",
+        "headline": "Daily Cellular Energy, Backed by Science",
+        "primary_text": "NMN Pro supports your body's natural NAD+ levels for steady energy and healthy aging.",
+        "landing_page": "lp_energy_v1",
+        "landing_page_headline": "Support Your Cellular Energy with NMN Pro",
+        "study_citation": null
+      },
+      {
+        "variant": "v2",
+        "period": "2026-05-15..2026-05-28",
+        "headline": "Feel a Decade Younger in Weeks",
+        "primary_text": "Thousands are feeling younger and more energized - try NMN Pro today.",
+        "landing_page": "lp_energy_v1",
+        "landing_page_headline": "Support Your Cellular Energy with NMN Pro",
+        "study_citation": null
+      }
+    ],
+    "notes": "Creative changed on 2026-05-15. Landing page was NOT changed."
+  },
+  {
+    "campaign_id": "CMP-102",
+    "name": "Vitamin D3+K2 - Everyday Immunity",
+    "product_id": "PRD-D3K2",
+    "status": "active",
+    "objective": "conversions",
+    "channel": "Google Ads",
+    "flight": {
+      "start": "2026-05-01",
+      "end": "2026-05-28"
+    },
+    "brief": "Acquire new customers for Vitamin D3+K2 on a bone-strength and immune-support angle.",
+    "creative_variants": [
+      {
+        "variant": "v1",
+        "period": "2026-05-01..2026-05-28",
+        "headline": "Strong Bones, Everyday Immunity",
+        "primary_text": "Vitamin D3+K2 for bone strength and immune support.",
+        "landing_page": "lp_d3k2",
+        "landing_page_headline": "Vitamin D3+K2 for Bone & Immune Support",
+        "study_citation": null
+      }
+    ],
+    "notes": "Tight promise-to-landing alignment."
+  },
+  {
+    "campaign_id": "CMP-103",
+    "name": "Resveratrol Plus - Healthy Aging",
+    "product_id": "PRD-RESV",
+    "status": "active",
+    "objective": "conversions",
+    "channel": "Meta Ads",
+    "flight": {
+      "start": "2026-05-05",
+      "end": "2026-05-28"
+    },
+    "brief": "Healthy-aging angle for Resveratrol Plus, modest functional claims only.",
+    "creative_variants": [
+      {
+        "variant": "v1",
+        "period": "2026-05-05..2026-05-28",
+        "headline": "Support Healthy Aging",
+        "primary_text": "Resveratrol Plus supports cellular health and healthy aging.",
+        "landing_page": "lp_resv",
+        "landing_page_headline": "Resveratrol Plus for Healthy Aging",
+        "study_citation": null
+      }
+    ],
+    "notes": "Compliant structure/function copy."
+  },
+  {
+    "campaign_id": "CMP-104",
+    "name": "NMN Pro - Age Reversal Promo",
+    "product_id": "PRD-NMN500",
+    "status": "active",
+    "objective": "conversions",
+    "channel": "Meta Ads",
+    "flight": {
+      "start": "2026-05-22",
+      "end": "2026-06-15"
+    },
+    "brief": "Aggressive promo angle for NMN Pro. New - performance data not yet available.",
+    "creative_variants": [
+      {
+        "variant": "v1",
+        "period": "2026-05-22..",
+        "headline": "Clinically Proven to Reverse Biological Aging",
+        "primary_text": "Guaranteed results in 30 days or your money back. NMN Pro reverses aging at the cellular level and prevents age-related disease.",
+        "landing_page": "lp_nmn_promo",
+        "landing_page_headline": "Reverse Your Biological Age",
+        "study_citation": null
+      }
+    ],
+    "notes": "Pending performance data."
+  }
+]

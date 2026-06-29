@@ -1,0 +1,29 @@
+[
+  {
+    "product_id": "PRD-NMN500",
+    "name": "NMN Pro 500mg",
+    "category": "Longevity",
+    "price_inr": 2499,
+    "in_stock": true,
+    "price_last_changed": "2026-04-10",
+    "description": "NAD+ precursor supplement for cellular energy support."
+  },
+  {
+    "product_id": "PRD-RESV",
+    "name": "Resveratrol Plus",
+    "category": "Longevity",
+    "price_inr": 1899,
+    "in_stock": true,
+    "price_last_changed": "2026-03-22",
+    "description": "Polyphenol supplement for cellular health."
+  },
+  {
+    "product_id": "PRD-D3K2",
+    "name": "Vitamin D3+K2",
+    "category": "Essentials",
+    "price_inr": 999,
+    "in_stock": true,
+    "price_last_changed": "2026-02-15",
+    "description": "Vitamin D3 with K2 for bone and immune support."
+  }
+]
